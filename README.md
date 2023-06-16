@@ -3,6 +3,20 @@
 <h1> AutoBots </h1>
 <h3> Sistema para gestão de lojas especializadas em manutenção veicular e vendas de autopeças </h3>
 
+![autobot](https://github.com/Prog-Technique/AutoBots-atv4/assets/100284976/1c548086-b7b3-4ab3-8c2b-9b8bb7d5b971)
+
+<a href="https://www.eclipse.org/downloads/" target="blank">
+<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="eclipse"/></a> 
+
+<a href="https://www.oracle.com/br/java/technologies/downloads/" target="blank">
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"/></a> 
+
+<a href="https://spring.io/" target="blank">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="spring"/></a> 
+
+<a href="https://insomnia.rest/" target="blank">
+<img src="https://camo.githubusercontent.com/7dca196dd7adc5004b07ec192b825cd9935af42a2abe7ff06b8aff268643b6b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e736f6d6e69612d3538343962653f7374796c653d666f722d7468652d6261646765266c6f676f3d496e736f6d6e6961266c6f676f436f6c6f723d7768697465" alt="insomnia"/></a> 
+
 </div>
 <br>
 
@@ -12,7 +26,7 @@
 <br>
 
 ## 📝 Contextualização
-A segurança da informação é o conceito por trás da defesa dos dados, detalhes e afins para assegurar que eles estejam acessíveis somente aos seus responsáveis de direito ou as pessoas às quais foram enviados. Para isto, seguem-se os seguintes pilares: <b>confidencialidade, integridade, disponibilidade, autenticidade e legalidade.</b>
+A segurança da informação é o conceito por trás da defesa dos dados, detalhes e afins para assegurar que eles estejam acessíveis somente aos seus responsáveis de direito ou as pessoas às quais foram enviados. Para isto, seguem-se os seguintes pilares: <b>CONFIDENCIALIDADE, INTEGRIDADE, DISPONIBILIDADE, AUTENTICIDADE e LEGALIDADE.</b>
 Dentre estas partes destacam-se dois conceitos denominados de autorização e autenticação. 
 Autenticação e autorização são dois termos, que correspondem a duas técnicas que garante-se mais segurança aos recursos, informações ou dados, que devem ser protegidos. <br>
 
@@ -31,24 +45,6 @@ Os investidores sugeriram um padrão para os perfis de usuários e suas autoriza
   
 ![profiles](https://github.com/Prog-Technique/AutoBots-atv4/assets/100284976/f82231ca-6233-4fc5-bae1-5a337f05ff31)
 </div>
-<br>
-
-## 🛠️ Tecnologias
-<div align="center">
-
-<a href="https://www.eclipse.org/downloads/" target="blank">
-<img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="eclipse"/></a> 
-
-<a href="https://www.oracle.com/br/java/technologies/downloads/" target="blank">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="java"/></a> 
-
-<a href="https://spring.io/" target="blank">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="spring"/></a> 
-
-<a href="https://insomnia.rest/" target="blank">
-<img src="https://camo.githubusercontent.com/7dca196dd7adc5004b07ec192b825cd9935af42a2abe7ff06b8aff268643b6b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496e736f6d6e69612d3538343962653f7374796c653d666f722d7468652d6261646765266c6f676f3d496e736f6d6e6961266c6f676f436f6c6f723d7768697465" alt="insomnia"/></a> 
-
-</div>
 
 <br>
 
@@ -60,7 +56,11 @@ Clone o repositório pelo link:
 https://github.com/Prog-Technique/AutoBots-atv4.git
 ~~~
 
-e rode o AutomanagerApplication.java
+Rode o AutomanagerApplication.java
+
+Importe o arquivo do Insomnia para o Insomnia
+
+E veja o sistema funcionando.
 
 <br>
 
