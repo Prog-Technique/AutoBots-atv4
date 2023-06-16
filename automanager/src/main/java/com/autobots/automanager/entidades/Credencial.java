@@ -1,26 +1,22 @@
 package com.autobots.automanager.entidades;
 
-import java.io.Serializable;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
+import jakarta.persistence.*;
 import lombok.Data;
 
-@SuppressWarnings("serial")
+import java.util.Date;
+
 @Data
 @Entity
-public class Credencial implements Serializable{
-	@Id
+@Inheritance(strategy = InheritanceType.JOINED)
+public abstract class Credencial {
+	@Id()
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-
-	@Column(nullable = false, unique = true)
-	private String nomeUsuario;
-	
 	@Column(nullable = false)
-	private String senha;
+	private Date criacao;
+	@Column()
+	private Date ultimoAcesso;
+	@Column(nullable = false)
+	private boolean inativo;
 }
